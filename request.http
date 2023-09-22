@@ -1,0 +1,19 @@
+POST http://localhost:4011/users
+content-type: application/json
+
+{
+    "name": "nome",
+    "email": "email@gmail.com"
+}
+
+###
+
+GET http://localhost:4011/users
+
+###
+
+DELETE http://localhost:4011/users/2
+
+###
+
+PUT http://localhost:4011/users/3
